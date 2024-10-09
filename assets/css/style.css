@@ -22,20 +22,16 @@ h1 {
     font-size: 26px;
 }
 
-h1 a {
-    color: #fff;
-}
-
 p {
     color: #c7c7c7;
     margin-bottom: 1rem;
 }
 
 header {
-    padding: 30px 20px 50px;
+    padding: 30px 20px;
 }
 
-header h1 a {
+header h1 span {
     display: block;
 }
 
@@ -45,12 +41,11 @@ header img {
 }
 
 main {
-    padding: 50px 20px;
-    border-left: none;
-    border-right: none;
+    padding: 0 20px;
 }
 
 section {
+    padding: 50px 0;
     border-top: solid 1px #484848;
 }
 
