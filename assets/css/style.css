@@ -8,6 +8,10 @@
     margin: 0;
 }
 
+.wrapper {
+    padding: 0 20px;
+}
+
 a {
     color: #D3E97A;
     text-decoration: none;
@@ -28,7 +32,7 @@ p {
 }
 
 header {
-    padding: 30px 20px;
+    padding: 30px 0;
 }
 
 header h1 span {
@@ -37,11 +41,7 @@ header h1 span {
 
 header img {
     border-radius: 20px;
-    margin: 10px auto;
-}
-
-main {
-    padding: 0 20px;
+    margin: 10px 0;
 }
 
 section {
@@ -51,7 +51,8 @@ section {
 
 footer {
     border-top: solid 1px #484848;
-    padding: 20px;
+    padding: 30px 0;
+    font-size: 10pt;
 }
 
 /* navbar */
@@ -83,7 +84,6 @@ nav {
 
 .navbar-container ul li {
     list-style: none;
-    margin: 0 2rem;
 }
 
 /* presentation */
@@ -107,4 +107,13 @@ nav {
 
 .project {
     margin: 1rem 0;
+}
+
+/* responsive */
+@media (max-width:440px) {
+    
+    header img {
+        width: 100%;
+    }
+
 }
