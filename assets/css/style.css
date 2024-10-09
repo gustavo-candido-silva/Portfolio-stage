@@ -23,7 +23,6 @@ header img {
 
 main {
     padding: 50px 20px;
-    margin: 0px;
     border: solid 1px #484848;
     border-left: none;
     border-right: none;
@@ -64,6 +63,10 @@ nav {
     height: 16px;
     line-height: 16px;
     flex: 1;
+}
+
+.navbar-container a {
+    color: #fff;
 }
 
 .navbar-container ul {
