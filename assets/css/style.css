@@ -61,7 +61,6 @@ footer {
 nav {
     display: flex;
     justify-content: space-between;
-    position: relative;
 }
 
 .navbar-container h2 {
@@ -85,10 +84,11 @@ nav {
 #presentation {
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 
 #presentation .presentation-item {
-    width: 350px;
+    width: 39%;
 }
 
 #presentation .presentation-item h1 span{
@@ -96,6 +96,7 @@ nav {
 }
 
 #presentation .presentation-item img {
+    width: 100%;
     border-radius: 20px;
 }
 
@@ -124,8 +125,12 @@ nav {
 
 /* responsive */
 @media (max-width:440px) {
-    
-    header img {
+
+    #presentation {
+        flex-direction: column;
+    }
+
+    #presentation .presentation-item {
         width: 100%;
     }
 
