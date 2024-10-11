@@ -124,23 +124,22 @@ nav {
 
 .project {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .project-item {
     width: 40%;
 }
 
-.project ul {
-    margin-top: 0.3rem;
-    padding: 0 1rem;
+.project-item img {
+    width: 100%;
+    border-radius: 20px;
 }
 
-.project li {
-    list-style: none;
-}
-
-.project {
-    margin: 1rem 0;
+.project-description {
+    display: flex;
+    flex-direction: column;
 }
 
 /* responsive */
