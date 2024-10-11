@@ -106,12 +106,28 @@ nav {
 
 /* career */
 #career {
-    text-indent: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.career-item {
+    width: 40%;
 }
 
 /* Projects */
+.stack {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
 .project {
-    margin: 1rem 0;
+    display: flex;
+}
+
+.project-item {
+    width: 40%;
 }
 
 .project ul {
