@@ -20,26 +20,31 @@
             </ul>
           </nav>
         </div>
-        <h1>Olá, sou <span>{{ site.title }}.</span></h1>
-
-        <p>
-          Engenheiro de software e apaixonado por tecnologia, não só na área de TI.
-        </p>
-
-        {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
-        {% endif %}
-
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
-
-        {% if site.show_downloads %}
-        <ul class="downloads">
-          <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
-        </ul>
-        {% endif %}
       </header>
       <main>
         <section id="presentation">
+          <div class="presentation-item">
+            <h1>Olá, sou <span>{{ site.title }}.</span></h1>
+
+            <p>
+              Engenheiro de software e apaixonado por tecnologia, não só na área de TI.
+            </p>
+          </div>
+          <div class="presentation-item">
+            {% if site.logo %}
+              <img src="{{site.logo | relative_url}}" alt="Logo" />
+            {% endif %}
+
+            <p>{{ site.description | default: site.github.project_tagline }}</p>
+
+            {% if site.show_downloads %}
+            <ul class="downloads">
+              <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
+            </ul>
+            {% endif %}
+          </div>
+        </section>
+        <section id="career">
           <p>Sou formado em Análise e Desenvolvimento de Sistemas, tenho especialização em ciência de dados, tenho mais de 5 anos de experiência em desenvolvimento de sistemas.</p>
           <p>Comecei na área de desenvolvimento em 2015 como estagiário na empresa Connectuse onde fui desenvolvedor PL/SQL utilizando a plataforma Oracle APEX por 5 anos, me tornando experiente em desenvolvimento, manipulação, manutenção de objetos de banco de dados, e em desenvolvimento de sistemas.</p>
           <p>No final de 2020 decidi que deveria ampliar meus conhecimentos para outras tecnologias e iniciei um novo ciclo como fullstack no desenvolvimento de aplicações web, API's e objetos de banco de dados (Procedures, Functions, Packages, etc) utilizando C# .NET como back end e banco de dados Oracle (PL/SQL).</p>
@@ -115,10 +120,6 @@
             </ul>
           </div>
         </section>
-
-
-      <!-- {{ content }} -->
-
       </main>
       <footer>
         {% if site.github.is_project_page %}
