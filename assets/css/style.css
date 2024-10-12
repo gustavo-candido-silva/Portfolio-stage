@@ -116,7 +116,7 @@ nav {
 
 /* Projects */
 #projects-header {
-    margin: 0 50px;
+    margin: 0 50px 1.5rem;
 }
 
 #projects-list {
@@ -137,8 +137,16 @@ nav {
     width: 40%;
 }
 
+.img-container {
+    background-color: #484848;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .project-item img {
-    width: 100%;
+    width: 80%;
     border-radius: 20px;
 }
 
@@ -180,6 +188,7 @@ nav {
 
     #projects-header {
         margin: auto;
+        margin-bottom: 1.5rem;
     }
 
     .project {
