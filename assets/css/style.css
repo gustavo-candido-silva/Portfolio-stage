@@ -116,7 +116,7 @@ nav {
 
 /* Projects */
 #projects-header {
-    margin: 0 50px 1.5rem;
+    margin: 0 50px 2rem;
 }
 
 #projects-list {
@@ -131,6 +131,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 2rem 0;
 }
 
 .project-item {
@@ -198,6 +199,7 @@ nav {
 
     .project-item {
         width: 100%;
+        margin-bottom: 1.5rem;
     }
 
 }
