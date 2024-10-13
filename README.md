@@ -1,4 +1,4 @@
-# Bem vindo ao repositório do meu portfólio
+# Bem vindo ao meu portfólio
 
 Onde além de demonstrar e aprimorar meus conhecimentos em desenvolvimento front-end, você também pode conhecer um pouco sobre mim como engenheiro de software.
 
