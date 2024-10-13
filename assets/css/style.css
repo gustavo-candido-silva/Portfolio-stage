@@ -148,6 +148,7 @@ nav {
 
 .project-item img {
     width: 100%;
+    max-width: -webkit-fill-available;
     border-radius: 20px;
     margin: 50px 30px;
 }
