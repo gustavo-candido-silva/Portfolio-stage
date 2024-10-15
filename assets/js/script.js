@@ -1,1 +1,1 @@
-console.log("{{ site.github.owner_url }}");
+console.log(site.github.owner_url);
